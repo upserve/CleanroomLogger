@@ -6,6 +6,6 @@ Pod::Spec.new do |s|
   s.author       = 'emaloney'
   s.source       = { :git => 'https://github.com/emaloney/CleanroomLogger.git', :tag => s.version }
   s.platform     = :ios, '10.2'
-  s.source_files = 'Sources/*'
+  s.source_files = 'Sources/*.swift'
   s.license = 'MIT'
 end
